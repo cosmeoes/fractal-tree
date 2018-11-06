@@ -1,0 +1,3 @@
+ghc -dynamic -o fractal fractal\ tree.hs
+./fractal > output $1
+python fractal.py $2
